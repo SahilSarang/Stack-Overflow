@@ -80,7 +80,7 @@ const QuestionsDetails = () => {
   const dispatch = useDispatch()
   const User = useSelector((state) => (state.currentUserReducer))
   const location = useLocation()
-  const url = 'https://stack-overflow-ss.netlify.app/Questions'
+  const url = 'https://stack-overflow-ss.netlify.app'
   
   const handlePostAns = (e, answerLength) =>{
     e.preventDefault()
